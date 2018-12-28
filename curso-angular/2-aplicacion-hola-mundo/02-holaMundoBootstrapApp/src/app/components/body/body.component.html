@@ -1,0 +1,23 @@
+<div class="row">
+
+    <div class="col">
+        <h1>*ngIf</h1>
+        <hr>
+        <div *ngIf="mostrarCita" class="card bg-light mb-3">
+            <div class="card-body">
+                <h5 class="card-title"> {{mensaje.autor}} </h5>
+                <p class="card-text"> {{mensaje.mensaje}} </p>
+            </div>
+        </div>
+        <button (click)="mostrarCita = !mostrarCita" class="btn btn-outline-info btn-block">Mostrar/Ocultar</button>
+    </div>
+
+    <div class="col">
+        <h1>*ngFor</h1>
+        <hr>
+        <ul class="list-group">
+            <li *ngFor="let idioma of idiomas; let indice = index;" class="list-group-item">{{ indice+1 }} - {{ idioma }}</li>
+        </ul>
+    </div>
+
+</div>
