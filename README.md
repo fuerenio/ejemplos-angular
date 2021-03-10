@@ -1,7 +1,7 @@
 # ejemplos-angular
-Ejemplos varios con Angular
 
-`curso-angular` - Ejemplos varios del curso de Angular en Udemy
+`angular-2021` - Practicas de curso de Angular 2021 en udemy
 
-`indexeddb-test1` - Ejemplo con la libreria angular2-indexeddb en Angular
+`curso-angular` - Proyectos de Ejemplo de curso de Angular de udemy
 
+`indexeddb-test1` - Integracion de Angular con la librería "angular2-indexeddb" (IndexedDB)
