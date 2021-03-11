@@ -15,4 +15,5 @@ export class PersonajesComponent {
  constructor(private dbzService: DbzService) {
 
  }
+ 
 }

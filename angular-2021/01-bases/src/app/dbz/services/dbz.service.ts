@@ -23,11 +23,14 @@ export class DbzService {
    };
 
    get personajes(): Personaje[] {
-      return this._personajes;
+      return [...this._personajes];
    }
 
    constructor() {
       console.log("DbzServicen inicializado");
    }
 
+   agregarPersonaje(personaje: Personaje):void {
+      this._personajes.push(personaje);
+   }
 }
