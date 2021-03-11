@@ -25,16 +25,5 @@ export class MainPageComponent {
     poder: 0
   };
 
-  agregar() {
-    console.log("agregar() > nuevoPersonaje: ", this.nuevoPersonaje);
-    if (this.nuevoPersonaje.nombre.trim().length == 0) {
-      return;
-    }
-    this.personajes.push(this.nuevoPersonaje);
-    this.nuevoPersonaje = {
-      nombre: '',
-      poder: 0
-    };
-  }
 
 }
